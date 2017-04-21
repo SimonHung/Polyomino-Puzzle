@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+<style>
+textarea, button{font-family:Courier; }
+</style>
+
+<meta http-equiv="Content-Type" content="text/html">
+<script type="text/javascript" src="polySolution.js"></script>
+<script type="text/javascript" src="polyomino.js"></script>
+<script type="text/javascript" src="polyomino4.js"></script>
+<script type="text/javascript" src="polyomino5.js"></script>
+<script type="text/javascript" src="polyomino8.js"></script>
+</head>
+<body>
+<body onLoad="initPolyomino()">
+<h1><a target="_blank" href="http://en.wikipedia.org/wiki/Polyomino">Polyomino</a>(智慧拼盤) Solver </h1>
+<div id="outputDiv">
+<textarea id='text_output' rows="20" cols="60" readonly="readonly"></textarea>
+</div>
+<div>
+<button id="block8" type="button" onclick="main(polyomino8)">IQ Creator</button>
+<button id="block4" type="button" onclick="main(polyomino4)">Tetromino</button>
+<button id="block5" type="button" onclick="main(polyomino5)">Pentomino</button>
+</div>
+</body>
+</html>

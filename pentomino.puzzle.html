@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Pentominos Puzzle</title>
+<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+<meta name="description" content="Pentominos Puzzle Solver (智慧拼盤)">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="pentomino.ico"  rel="shortcut icon" >
+<style>
+	body {
+		margin: 1px;
+		padding: 1px;
+	}
+	#newButton, #demoButton {
+		background: transparent;
+		border: 0;
+	}
+	#hintsButton, #newButton, #resetButton, #demoButton   {
+		width: 50px;
+		padding: 5px;
+		display: block;
+		margin-top: 5px;
+	}
+	select {
+		width: 80px;
+	}
+	#checkboxtext, input, select {
+		font:  15px arial;
+		visibility: hidden;
+	}
+	#startButton {
+		width: 100px;
+		padding: 5px;
+		display: block;
+		margin-top: 5px;
+		font:  20px arial;
+	}
+</style>
+<script src="kineticJS/kinetic-v4.4.3.min.js"></script>
+<script src="animate.js"></script>
+<script src="polyDemo.js"></script>
+<script src="pentomino.puzzle.js"></script>
+<script src="polySolution.js"></script>
+<script src="polyomino5.js"></script>
+</head>
+<body> 
+<div id="container"></div>
+<div id="boardSize">
+	<select id="boardSizeButton" onchange="boardSizeButton(this.value);">
+		<option value="1" >&nbsp;&nbsp;5X6&nbsp;</option>
+		<option value="2">&nbsp;&nbsp;5X8&nbsp;</option>
+		<option value="3">&nbsp;&nbsp;5X10&nbsp;</option>
+		<option value="4">&nbsp;&nbsp;6X10&nbsp;</option>
+	</select>
+</div>	
+
+<div id="level">
+	<select id="levelButton" onchange="levelButton(this.value);">
+		<option value="1">Level 1</option>
+		<option value="2">Level 2</option>
+		<option value="3">Level 3</option>
+		<option value="4">Level 4</option>
+	</select>
+</div>
+	
+<div id="hints"><input type="button" id="hintsButton" onclick="hintsButton();" value="Hints"></div>
+<div id="reset"><input type="button" id="resetButton" onclick="resetButton();" value="Reset"></div>
+<div id="check"><input type="checkbox" id="checkButton" onclick="checkButton(this.checked);">
+	<span id="checkboxtext">Check Solution</span>
+</div>
+<div id="start"><input type="button" id="startButton" onclick="startButton(1);" value="Play"></div>
+<div id="new"><input type="button" id="newButton" onclick="createPuzzle(1, true);" value=""></div>
+<div id="demo"><input type="button" id="demoButton" onclick="demoButton(1);" value=""></div>
+</body>
+</html>

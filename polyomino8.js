@@ -1,4 +1,4 @@
-// (²Ä¤@¥NÅ]³N«÷½L, IQ Creator I) 
+ï»¿// (ç¬¬ä¸€ä»£é­”è¡“æ‹¼ç›¤, IQ Creator I) 
 // http://photos1.hi5.com/0113/214/100/hiV8qV214100-02.jpg
 //
 // +-----------+-----------------------+-----------+--> X
@@ -26,7 +26,7 @@ boardX: 8, boardY: 8,
 
 maxSolution: 100, //how many answers want to find 
 
-//(²Ä¤@¥NÅ]³N«÷½L)
+//(ç¬¬ä¸€ä»£é­”è¡“æ‹¼ç›¤)
 info: "IQ Creator I (\u7B2C\u4E00\u4EE3\u9B54\u8853\u62FC\u76E4)\n\n" +
 	  "8 blocks, each made from 8 squares.\n" +
 	  "http://photos1.hi5.com/0113/214/100/hiV8qV214100-02.jpg\n",

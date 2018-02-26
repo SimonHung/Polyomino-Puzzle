@@ -1,4 +1,4 @@
-//---------------------
+﻿//---------------------
 // create a new board
 //---------------------
 function createBoard(boardX, boardY)

@@ -8,6 +8,6 @@ This program build with Javascript + [KineticJS](http://kineticjs.com).
 
 *[Tetromino wiki](https://en.wikipedia.org/wiki/Tetromino)
 
-<a target="_blank" href="http://simonsays-tw.com/web/Polyomino/game/pentomino.puzzle.html">Play Polyomino Puzzle game online</a>
-------------------------------------
+## <a target="_blank" href="http://simonsays-tw.com/web/Polyomino/game/polyomino.html">Polyomino solver</a>
 
+## <a target="_blank" href="http://simonsays-tw.com/web/Polyomino/game/pentomino.puzzle.html">Play Polyomino Puzzle game online</a>
